@@ -11,8 +11,8 @@ import com.garbagemule.MobArena.framework.ArenaMaster;
 @CommandInfo(
     name    = "join",
     pattern = "j|jo.*|j.*n",
-    usage   = "/ma join (<arena>)",
-    desc    = "join an arena",
+    usage   = "/join (<arena>)",
+    desc    = "join an outbreak fight",
     permission = "mobarena.use.join"
 )
 public class JoinCommand implements Command
